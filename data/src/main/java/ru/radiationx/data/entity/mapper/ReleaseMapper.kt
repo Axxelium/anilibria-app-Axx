@@ -62,7 +62,7 @@ fun FavoriteInfoResponse.toDomain(): FavoriteInfo = FavoriteInfo(
 )
 
 fun BlockedInfoResponse.toDomain(): BlockedInfo = BlockedInfo(
-    isBlocked = isBlocked,
+    isBlocked = false,
     reason = reason
 )
 
